@@ -1,0 +1,23 @@
+# Binarios
+main
+password-manager
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Variables de entorno (¡CRÍTICO!)
+.env
+*.env
+
+# Docker
+.docker
+
+# Datos del gestor (el archivo donde guardarás las claves)
+vault.json
+vault.db
+
+# IDEs
+.vscode/
+.idea/
